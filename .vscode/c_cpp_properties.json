@@ -1,0 +1,35 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/barr1yuan/catkin_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/barr1yuan/catkin_ws/src/ros_motion_planning/src/core/controller/apf_controller/include/**",
+        "/home/barr1yuan/catkin_ws/src/ros_motion_planning/src/core/common/include/**",
+        "/home/barr1yuan/catkin_ws/src/ros_motion_planning/src/core/controller/controller/include/**",
+        "/home/barr1yuan/catkin_ws/src/ros_motion_planning/src/core/controller/dwa_controller/include/**",
+        "/home/barr1yuan/catkin_ws/src/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_visualizer_plugin/gazebo_ped_visualizer_plugin/include/**",
+        "/home/barr1yuan/catkin_ws/src/ros_motion_planning/src/plugins/gazebo_plugins/pedestrian_sfm_plugin/include/**",
+        "/home/barr1yuan/catkin_ws/src/ros_motion_planning/src/core/controller/lqr_controller/include/**",
+        "/home/barr1yuan/catkin_ws/src/ros_motion_planning/src/core/controller/mpc_controller/include/**",
+        "/home/barr1yuan/catkin_ws/src/ros_motion_planning/src/core/controller/orca_controller/include/**",
+        "/home/barr1yuan/catkin_ws/src/ros_motion_planning/src/core/path_planner/path_planner/include/**",
+        "/home/barr1yuan/catkin_ws/src/ros_motion_planning/src/core/controller/pid_controller/include/**",
+        "/home/barr1yuan/catkin_ws/src/ros_motion_planning/src/core/controller/rpp_controller/include/**",
+        "/home/barr1yuan/catkin_ws/src/ros_motion_planning/src/core/controller/static_controller/include/**",
+        "/home/barr1yuan/catkin_ws/src/ros_motion_planning/src/plugins/map_plugins/voronoi_layer/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
